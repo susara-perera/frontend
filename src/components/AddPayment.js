@@ -162,7 +162,7 @@ function AddPayment() {
             onChange={handleChange}
             required
             pattern="^(0[1-9]|1[0-2])\/(2[3-9]|3[0-2])$"
-            title="Enter a valid expiry date in mm/yy format, year up to 2032."      //^(0[1-9]|1[0-2])\/(2[3-8])$
+            title="Enter a valid expiry date in mm/yy format, year up to 2032."      //^(0[1-9]|1[0-2])\/(2[3-8])$ we can change date upto 2028
 
             placeholder="MM/YY"
           />
